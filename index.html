@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html >
+  <head>
+    <meta charset="UTF-8">
+    <title>Wikipedia Viewer</title>
+    <link href='https://fonts.googleapis.com/css?family=Candal' rel='stylesheet' type='text/css'>
+
+<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no">
+    
+    
+    <link rel='stylesheet prefetch' href='https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css'>
+
+        <link rel="stylesheet" href="css/style.css">
+
+    
+    
+    
+  </head>
+
+  <body>
+
+    <div class="container">
+  <div class="searchBox">
+   <div class="ui-widget">
+    <div class="input-group input-group-lg">      
+      <span class="input-group-btn">
+      <a class="btn btn-default" id="random" href="http://en.wikipedia.org/wiki/Special:Random" target="_blank"><span class="glyphicon glyphicon-random"></span></a>
+      </span>      
+      <input type="text" class="form-control" placeholder="Search Wikipedia..." id="searchTerm">        
+      <span class="input-group-btn">
+        <button class="btn btn-default" id="search"><span class="glyphicon glyphicon-search"></span></button>
+      </span>
+      <div class="results"></div>
+     </div> <!--/input-group-->
+    </div> <!-- /ui-widget -->
+    
+    <div class="errorMessage">You must enter a search term</div>
+    
+  </div> <!--/searchBox-->
+  
+  <div class="searchResults">   
+  </div><!--/searchResults-->
+  
+  <div class="row">
+    <div class="col-md-3"></div>
+    <div class="col-md-3 col-xs-12 text-center">          
+      <div id="randomIntro" class="text-center">Random</div>      
+    </div>
+   <div class="col-md-3 col-xs-12 text-center">
+      <div id="searchIntro" class="text-center">Search</div>
+     <div class="col-md-3"></div>
+    </div>   
+  </div> <!-- /row -->
+  
+</div> <!--/container -->
+    <script src='http://cdnjs.cloudflare.com/ajax/libs/jquery/2.2.2/jquery.min.js'></script>
+<script src='http://cdnjs.cloudflare.com/ajax/libs/jqueryui/1.11.4/jquery-ui.min.js'></script>
+
+        <script src="js/index.js"></script>
+
+    
+    
+    
+  </body>
+</html>

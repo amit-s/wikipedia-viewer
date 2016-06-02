@@ -1,1 +1,120 @@
+@media only screen and (max-width : 480px) {  
+  #randomIntro, #searchIntro{
+    font-size: 2.1em;
+  }  
+  .searchBox{
+    margin: 1.5em; 
+  }
+  .searchItem{
+    margin-right: 8%;
+  }
+}
 
+@media only screen and (min-width : 480px) {
+   .searchBox{
+    margin: 3em; 
+     }
+  .searchItem{
+    margin-right: 8%;
+    margin-left: 90px;
+     }
+   }
+
+body{
+  background-image: url("https://www.dropbox.com/s/r7inhdjqseu0qfi/tree_bark.png?raw=1");
+}
+
+/*.container{
+  width: 65%;
+}*/
+
+
+
+/*#searchTerm{
+  background-color: rgba(255,255,255,0.5);
+}*/
+
+.transformed{
+  background-color: rgba(0,128,128,0.8);
+  color: black;
+}
+
+.searchItem{ 
+  color: rgb(50,50,50);  
+  border-left: 10px solid rgba(0,128,128,1);
+  padding: 10px;
+  margin-bottom: 5px;
+  
+  border-radius: 5px;
+  
+}
+
+.searchItem:hover{
+  /*background-color: rgba(150,150,150,0.2);*/
+  background-color: rgba(0,128,128,0.2);
+}
+
+/*.searchResults{
+  width: 90%;
+}*/
+
+.searchResults a:hover{
+  text-decoration: none;
+}
+
+.searchResults a:visited{
+  text-decoration: none;
+}
+
+.errorMessage{
+  /*border: 1px solid red;*/
+  color: red;
+  background-color: rgba(255,255,255,0.5);
+  margin-left: 70px;
+  margin-top: 5px;
+  width: 20%;
+  padding: 5px;
+  display: none;
+}
+
+.ui-helper-hidden-accessible{
+  display: none;
+}
+
+.ui-autocomplete li{
+  list-style-type: none;
+  border-left: 5px solid rgba(0,128,128,0.6);
+  padding: 10px;
+  margin-bottom: 2px; 
+ /* width: 40%;*/
+}
+
+ .ui-state-focus {
+   background-color: rgba(0,128,128,0.2);
+   color: #000;
+   border-radius: 5px;
+   font-weight: bold;
+   margin: 5px;
+}
+
+.ui-autocomplete{  
+  width: 50%;
+}
+
+#randomIntro, #searchIntro{
+  /*position: absolute;*/
+  /*border: 1px solid;*/
+  /*padding: 20px;*/
+  height: 50px;
+  display: inline-block;  
+  border-radius: 5px;
+ /* background-color: rgba(0,128,128,1);*/
+  color: rgb(0,128,128);
+  font-size: 3em;
+  font-family: 'Candal', sans-serif;
+  text-shadow: 2px 2px black, -2px -2px white;
+}
+
+.ui-effects-transfer{
+  border: 1px dashed;
+}
